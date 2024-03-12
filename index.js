@@ -40,6 +40,8 @@ let users = [
   { id: 2, name: "Jack", color: "powderblue" },
 ];
 
+
+//  fetches the countries visited by the current user, return the country codes. 
 /* result return :
 "country_code"
 "FR"
@@ -76,9 +78,10 @@ async function getCurrentUser() {
 app.get("/", async (req, res) => {
   const countries = await checkVisisted();
   const currentUser = await getCurrentUser();
+   
   res.render("index.ejs", {
     countries: countries,
-    total: countries.length,
+    total: totalCountries,
     users: users,
     color: currentUser.color,
   });
