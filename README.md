@@ -1,8 +1,13 @@
-# PERN Family Travel Tracker 🌏🗺 -
+# CRUD Family Travel Tracker 🌏🗺 -
 
-PERN Family-Travel-Tracker is a web application developed using the
-### PERN (PostgreSQL, Express, React, Node.js) stack <img height=30px src="https://skillicons.dev/icons?i=postgresql"> <img height=30px src="https://skillicons.dev/icons?i=express"> <img height=30px src="https://skillicons.dev/icons?i=react"> <img height=30px src="https://skillicons.dev/icons?i=nodejs">.
+<div align="center">
+<img height="350px" src="https://github.com/shanibider/CRUD-PostreSQL-Family-Travel-Tracker/assets/72359805/93643f34-276b-423e-9b66-22df5a56f5ff">
+</div>
+
+CRUD Family-Travel-Tracker is a web application developed using the
+### PostgreSQL, Express.js, Node.js, and EJS Templating Engine. <img height=30px src="https://skillicons.dev/icons?i=postgresql"> <img height=30px src="https://skillicons.dev/icons?i=express"> <img height=30px src="https://skillicons.dev/icons?i=js"> <img height=30px src="https://skillicons.dev/icons?i=nodejs">.
 It enables users to track their family travels conveniently.
+
 
 ### **Live Demo:** [Explore the live website.🖥](https://family-travel-tracker-k8l6.onrender.com/)
 
@@ -10,8 +15,7 @@ It enables users to track their family travels conveniently.
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,postgresql,express,nodejs)](https://skillicons.dev)
 
 - [x] **Frontend**:
-  - [x] React
-  - [x] React Router
+  - [x]  EJS Templating with JavaScript
 
 - [x] **Backend**:
   - [x] Express.js
